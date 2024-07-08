@@ -9,6 +9,9 @@
     "wdth" 100;
 }
 /* shared styles */
+.text-center{
+    text-align: center;
+}
 .secondary-bg{
     background-color:#ffe7bb ;
 }
@@ -104,12 +107,17 @@ main{
 max-width: 1140px;
 margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
 /* about styles */
 .about{
 border-radius: 10px;
 padding: 130px 150px;
 text-align: center;
-margin-top: 130px;
+
 }
 .about-items{
 display: flex;
@@ -117,4 +125,14 @@ justify-content: space-around;
 }
 .item-description{
     font-weight: bold;
+}
+/* skills section styles */
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 25px 0px #9c9898;
+}
+.skills-container{
+display: flex;
+gap: 24px;
 }
