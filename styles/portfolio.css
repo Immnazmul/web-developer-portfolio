@@ -195,6 +195,11 @@ border: none;
     .skills-container, .resume-container, footer, .about-items, .banner, nav, nav>ul {
         flex-direction: column;
     }
+    .banner, nav{
+        justify-content: center;
+        align-items: center;
+        margin: 0px 40px;
+    }
     nav>ul{
         gap: 20px;
     }
@@ -207,7 +212,15 @@ border: none;
     .footer-column{
         width: 100%;
     }
-    footer input[type="text"], footer input[type="email"], footer textarea{
+    .header{background-image: url(../images/developer.png) , url(../images/header_bg.png);
+        background-repeat: no-repeat;
+        background-position: top right, bottom right;}
+        .banner-content{
+            text-align: left;
+        }
+        .banner-title{
+            font-size: 60px;
+        }
+    footer input[type="text"], footer input[type="email"], .banner-pic, footer textarea{
         width:calc(100% - 40px);
-
-}
+}}
